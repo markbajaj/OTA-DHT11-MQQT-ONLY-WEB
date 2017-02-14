@@ -1,7 +1,5 @@
 #include <DHT.h>
-
 #include <ESP8266WebServer.h>
-
 // Get ESP8266 going with Arduino IDE
 // - https://github.com/esp8266/Arduino#installing-with-boards-manager
 // Required libraries (sketch -> include library -> manage libraries)
@@ -18,12 +16,12 @@
 #include "Wire.h"
 
 
-#define mqtt_server "192.168.101.25"
+#define mqtt_server "xxx.xxx.xx.xxx"
 #define mqtt_user ""
 #define mqtt_password ""
 
-#define humidity_topic "sensor3/humidity3"
-#define temperature_topic "sensor3/temperature3"
+#define humidity_topic "sensor/humidity"
+#define temperature_topic "sensor/temperature"
 #define DHTPIN 4     // Connected to Pin D1 in NodeMCU
 #define DHTTYPE DHT11
 
